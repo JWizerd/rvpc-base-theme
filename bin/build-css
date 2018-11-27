@@ -1,0 +1,1 @@
+node-sass --include-path scss assets/sass/*.scss assets/css/styles.css && postcss --use autoprefixer -r ./assets/css/styles.css

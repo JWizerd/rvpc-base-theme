@@ -1,0 +1,8 @@
+#adminmenu,
+#wp-admin-bar-new-lawyer,
+#wp-admin-bar-new-post,
+#wp-admin-bar-comments,
+#wp-admin-bar-wpseo-menu,
+label.setting[data-setting="description"] {
+    display: none;
+} 

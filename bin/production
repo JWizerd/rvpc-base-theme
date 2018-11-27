@@ -1,0 +1,1 @@
+concat -o ./assets/sass/styles.scss ./assets/sass/*.scss && concat -o ./assets/js/dist/main.js ./assets/js/*.js && uglifyjs ./assets/js/dist/main.js --compress --output ./assets/js/dist/main.min.js && cssnano ./assets/css/styles.css ./assets/css/styles.min.css

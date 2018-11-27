@@ -1,0 +1,30 @@
+{
+  "name": "railroad-injuries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install --global postcss-cli autoprefixer cssnano-cli uglify-js concat",
+    "build-css": "./bin/build-css",
+    "watch": "./bin/watch",
+    "production": "./bin/production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impactstudio/railroad-injuries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/impactstudio/railroad-injuries/issues"
+  },
+  "homepage": "https://github.com/impactstudio/railroad-injuries#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap-sass": "^3.3.7",
+    "node-sass": "^4.5.0"
+  }
+}
