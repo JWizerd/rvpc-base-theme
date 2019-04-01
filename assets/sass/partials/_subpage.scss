@@ -1,0 +1,235 @@
+.page-content {
+  @extend .justify;
+  ul {
+    margin-bottom: 20px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-align: left;
+  }
+}
+
+.hero .black-overlay {
+  opacity: .5;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 41px;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.breadcrumb-container {
+  background-color: $dark;
+}
+
+.breadcrumbs {
+  font-size: .9em;
+  padding: 25px 0;
+  color: white;
+}
+
+.breadcrumbs span a {
+  color: $denim;
+}
+
+.breadcrumbs span a:hover {
+  color: $leaf;
+}
+
+.thumbnail {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  display: block;
+  margin-bottom: 0;
+  height: 200px;
+}
+
+.thumbnail img {
+  height: 100%;
+  width: 100%;
+}
+
+.showpage-title {
+  color: $denim;
+  font-size: 22px;
+}
+
+.capability-icon {
+  color: $denim;
+}
+
+.showpage-title-link {
+  color: $denim;
+}
+
+.showpage-snippet {
+  color: $ash;
+}
+
+.showpage-description {
+  padding: 0 15px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.subpage-hero {
+  width: 100%;
+  position: relative;
+}
+
+.subpage-hero, .subpage-hero-content {
+  height: 300px;
+}
+
+.subpage-hero-content {
+  @extend .flexbox;
+  justify-content: center;
+  //justify-content handles vertical alignment for flexbox
+  @extend .flex-col;
+  color: white;
+}
+
+.subpage-hero-content h1 {
+  font-family: $montBold;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.subpage, .subpage-nav {
+  height: 100%;
+}
+
+.subpage {
+  position: relative;
+  background-color: #fff;
+}
+
+.subpage-nav-heading {
+  font-size: 20px;
+}
+
+.subpage-nav {
+  position: absolute;
+  width: 30%;
+  background-color: #efefef;
+}
+
+.subpage-nav-heading span {
+  display:inline-block;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  line-height: 34px;
+}
+
+.subpage-nav-links {
+  color: $ash;
+}
+
+.subpage-nav-links:hover {
+  color: $denim;
+}
+
+.img-featured {
+  margin-bottom: 30px;
+}
+
+.additional-media {
+  height: 350px;
+  padding-bottom: 30px;
+}
+
+.additional-media video {
+  width: 100%;
+  height: 100%;
+}
+
+.additional-media img {
+  width: 100%;
+  height: 100%;
+}
+
+.alignright {
+  float: right;
+  margin: 10px 0 10px 30px;
+}
+
+.alignleft {
+  float: left;
+  margin: 10px 30px 10px 0;
+}
+
+.subpage h1,
+.subpage h2,
+.subpage h3,
+.subpage h4,
+.subpage p {
+  margin-bottom: 25px;
+}
+
+.post a {
+  font-weight: bold;
+}
+
+.post-excerpt p, .post li, .post blockquote {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.post p, .post blockquote {
+  text-align: justify;
+}
+
+.post li {
+  margin-left: 30px;
+  text-align: left;
+}
+
+.search-result {
+  list-style: none;
+  background: white;
+  padding: 30px;
+  overflow: hidden;
+  display: flex;
+}
+
+.search-result div {
+  float: left;
+}
+
+.search-result div p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.search-result div small {
+  font-size: 16px;
+}
+
+.img-search-result {
+  display: block;
+}
+
+.search-result-excerpt {
+  text-align: justify;
+  width: 100%;
+}
+

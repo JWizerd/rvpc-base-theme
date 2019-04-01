@@ -1,0 +1,47 @@
+.lawyer-section-wrap {
+    background: url(../img/bg_lawyers.jpg) top center no-repeat;
+    background-size: cover;
+    .lawyer-cta h4,
+    .lawyer-cta p {
+      color: $ash;
+    }
+
+    img {
+      @include transition(ease, .3s);
+      &:hover {
+        @extend .desaturate-zoom;
+      }
+    }
+
+    a:hover {
+      color: $denim;
+      cursor: pointer;
+    }
+
+    .social_links {
+      list-style: none;
+      margin: 0 auto 10px;
+      display: inline-block;
+    }
+
+    .social_icon {
+      float: left;
+      margin: 2px 3px;
+    }
+
+    .social-link {
+      margin-top: 0;
+    }
+  }
+
+  .lawyer-section-wrap h2 {
+    font-weight: 700;
+  }
+
+  .lawyer-section-wrap h2 span {
+    color: $denim;
+  }
+
+  .lawyer-image {
+    width: 60%;
+  }

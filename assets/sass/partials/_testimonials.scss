@@ -1,0 +1,21 @@
+.testimonial-section-wrap {
+    position: relative;
+    background: url("#{$image_path}bg_testimonials.jpg") center center no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid;
+    color: $ash;
+
+    .testimonial {
+      min-height: 100px;
+      @extend .flexbox;
+      align-items: center;
+    }
+
+    .owl-carousel {
+      min-height: 300px;
+      img.stars {
+        width: 25%;
+        margin: 0 auto;
+      }
+    }
+  }

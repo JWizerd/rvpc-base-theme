@@ -1,0 +1,42 @@
+.form-wrapper {
+  @include placeholder {
+    color: white;
+  }
+  background-color: rgba(51, 51, 51, .9);
+  padding: 30px;
+  font-family: $montReg;
+}
+
+.form-wrapper hr {
+  margin-bottom: 20px;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+  border-radius: 0;
+  color: white;
+  font-size: 20px;
+  background-color: $denim;
+  border: none;
+}
+
+.form-wrapper textarea {
+  height: 150px;
+}
+
+// sidebar form
+
+.sidebar-form {
+  @extend .form-wrapper;
+  padding: 0;
+  background-color: transparent;
+}
+
+.sidebar-form input,
+.sidebar-form textarea {
+  background-color: $ash;
+}
+
+.sidebar-form.btn.btn-submit {
+  background-color: $denim;
+}

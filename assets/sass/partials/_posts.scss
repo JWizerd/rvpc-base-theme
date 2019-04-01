@@ -1,0 +1,479 @@
+.post .single-post .post-details h1.post-title {
+  color: #394753!important;
+  margin-bottom: 15px;
+  font-size: 1.5em
+}
+
+.post-details {
+  min-height: 250px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.post-categories-stuff {
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  width: 89%
+}
+
+.wp-post-image {
+  width: 100%;
+  height: auto
+}
+
+.stop {
+  min-height: initial
+}
+
+.post-margin-fix {
+  margin: 0 15px 15px 0
+}
+
+.featured-tag h4 {
+  margin-bottom: 0;
+  color: #fff
+}
+
+.post .post-details {
+  margin-bottom: 0
+}
+
+.post-details a {
+  color: #0977bc
+}
+
+.post-details-headline {
+  min-height: 56px;
+  margin-top: 5px;
+}
+
+.post-margin-fix:nth-child(2n) {
+  margin-right: 0!important
+}
+
+.single-post {
+  width: 100%;
+  background-color: transparent
+}
+
+.single-post-content {
+  background-color: #f9f9f9;
+  margin-top: -15px;
+  padding-top: 15px!important
+}
+
+.avatar {
+  width: 28%;
+  float: left;
+  margin-right: 15px
+}
+
+.latest-post .post-image img,
+.post h3 a {
+  width: 100%
+}
+
+.post #categories {
+  margin-top: -15px
+}
+
+.post-details {
+  padding: 0 5px;
+}
+
+.post .post-details h3 {
+  font-family: Montserrat, Sans-serif;
+  font-weight: 300;
+  font-size: 20px
+}
+
+.post .post-meta,
+.post h3 {
+  width: 100%;
+  font-family: "Roboto Slab", sans-serif;
+  position: relative
+}
+
+.post-details p {
+  color: #394753;
+  line-height: 20px;
+  margin-top: 5px;
+  text-align: justify
+}
+
+.latest-post .excerpt-more {
+  font-size: 16px;
+  letter-spacing: 2px
+}
+
+.latest-post .featured-tag {
+  background-color: #0977bc;
+  padding: 10px
+}
+
+.latest-post .featured-tag h4 {
+  text-transform: uppercase
+}
+
+.latest-post .post-details {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.latest-post h3 {
+  font-size: 25px;
+  padding-bottom: 15px
+}
+
+.latest-post hr {
+  margin-bottom: 13px
+}
+
+.latest-post {
+  margin-right: 4px;
+  margin-bottom: 15px
+}
+
+.latest-post .post-meta {
+  color: #394753
+}
+
+hr {
+  margin: 15px -15px;
+  background-color: #ccc;
+  height: 2px;
+  border: none
+}
+
+.post:nth-child(2n) {
+  margin-right: 14px
+}
+
+i {
+  margin-left: 10px
+}
+
+.tag,
+i:first-child {
+  margin-left: 0
+}
+
+.tag {
+  color: #0977bc
+}
+
+.post h3 {
+  line-height: 28px;
+  color: #394753;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -moz-hyphens: auto;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 4px
+}
+
+.hero h1,
+.post .post-excerpt big,
+.post .post-excerpt cite,
+.post .post-excerpt strong,
+.post .post-meta a,
+.post .post-tags span,
+.post a,
+h3.gallery-slogan {
+  font-weight: 700
+}
+
+.post h3 a {
+  color: #394753;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s
+}
+
+.post h3 a:hover {
+  -webkit-opacity: .7;
+  -moz-opacity: .7;
+  -ms-opacity: .7;
+  -o-opacity: .7;
+  opacity: .7
+}
+
+.post .post-meta {
+  color: #394753;
+  font-size: 12px
+}
+
+.post .post-excerpt h1,
+.post .post-excerpt h2,
+.post .post-excerpt h3 {
+  font-family: Montserrat, sans-serif
+}
+
+.post-meta span {
+  font-size: 16px
+}
+
+.post-meta .tag {
+  font-size: 12px
+}
+
+.post-meta .post-detail {
+  padding-right: 5px;
+  font-size: .8em;
+}
+
+.post .post-meta a {
+  line-height: 24px;
+  color: #394753;
+  text-decoration: none
+}
+
+.post .post-meta a:hover {
+  text-decoration: underline
+}
+
+.post-details h1 {
+  padding-top: 20px
+}
+
+div.social-sharing {
+  width: 32%;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  margin-bottom: 16px;
+}
+
+div.social-sharing {
+  display: none;
+}
+
+.post-meta div.social-sharing {
+  display: block;
+}
+
+.post .post-image {
+  width: 100%;
+  height: auto;
+  margin: 0 0 15px
+}
+
+.post .post-image img {
+  width: 100%;
+  display: block;
+  height: 185px
+}
+
+.post-image-sm img {
+  height: 200px
+}
+
+.post .post-excerpt {
+  width: 100%;
+  line-height: 24px;
+  color: #394753;
+  font-size: 16px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -moz-hyphens: auto
+}
+
+.post .post-excerpt .wp-caption,
+.post .post-excerpt img {
+  max-width: 100%;
+  height: auto
+}
+
+.post .post-excerpt h1 {
+  margin: 0 0 30px;
+  font-size: 28px
+}
+
+.post .post-excerpt h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  line-height: 36px;
+  text-align: left
+}
+
+.post .post-excerpt h3 {
+  margin: 20px 0;
+  font-size: 22px;
+  text-align: left
+}
+
+.post .post-excerpt h4,
+.post .post-excerpt h5,
+.post .post-excerpt h6 {
+  margin: 20px 0;
+  font-family: "Roboto Slab", sans-serif
+}
+
+.post .post-excerpt h4 {
+  font-size: 20px
+}
+
+.post .post-excerpt h5,
+.post .post-excerpt h6 {
+  font-size: 18px
+}
+
+.post .post-excerpt blockquote {
+  background: #f9f9f9;
+  margin: 1.5em 10px;
+  padding: .5em 10px;
+  quotes: "“" "”" "‘" "’";
+  font-style: italic;
+  font-weight: 700
+}
+
+.post .post-excerpt blockquote:before {
+  color: #394753;
+  content: open-quote;
+  font-size: 3em;
+  line-height: .1em;
+  margin-right: .1em;
+  vertical-align: -.4em
+}
+
+.post .post-excerpt blockquote p {
+  display: inline
+}
+
+.post .post-excerpt p {
+  margin: 20px 0;
+  line-height: 25px
+}
+
+.post .post-excerpt table {
+  width: 100%
+}
+
+.post .post-excerpt table th {
+  text-align: left
+}
+
+.post .post-excerpt table td {
+  padding: 0 5px;
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box
+}
+
+.post .post-excerpt table a {
+  color: #394753;
+  text-decoration: underline
+}
+
+.post .post-excerpt table a:hover {
+  text-decoration: none
+}
+
+.post .post-excerpt dl dd {
+  margin-left: 25px
+}
+
+.post .post-excerpt ul li ul li {
+  margin-left: 15px;
+  list-style-type: circle
+}
+
+.post .post-excerpt ol li {
+  list-style-type: decimal;
+  list-style-position: inside
+}
+
+.post .post-excerpt ol li ol li {
+  margin-left: 20px;
+  list-style-type: lower-roman
+}
+
+.post .post-excerpt a {
+  color: #394753;
+  text-decoration: underline
+}
+
+.post .post-excerpt a:hover {
+  text-decoration: none
+}
+
+.post .post-excerpt abbr,
+.post .post-excerpt acronym {
+  border-bottom: 1px dotted #394753
+}
+
+.post .post-excerpt pre {
+  padding-left: 10px;
+  border-left: 10px solid #eee
+}
+
+.post .post-excerpt sub {
+  font-size: 7px
+}
+
+.post .post-excerpt sup {
+  top: -10px;
+  vertical-align: baseline;
+  position: relative;
+  line-height: 0;
+  font-size: 7px
+}
+
+.post .post-links,
+.post .post-tags {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  color: #394753
+}
+
+.post .post-excerpt iframe.twitter-tweet {
+  width: 100%
+}
+
+.post .post-links {
+  font-size: 14px
+}
+
+.post .post-links a {
+  color: #394753;
+  text-decoration: underline
+}
+
+.post .post-links a:hover {
+  text-decoration: none
+}
+
+.post .post-tags {
+  margin-top: 20px
+}
+
+.post .post-tags a {
+  color: #394753;
+  text-decoration: underline
+}
+
+.post .post-tags a:hover,
+.post .read-more {
+  text-decoration: none
+}
+
+.post .read-more {
+  width: 100%;
+  height: 12px;
+  background: url(../images/read-more-border.png) center repeat-x;
+  margin: 30px 0 0;
+  display: block;
+  color: #394753;
+  text-align: center;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-size: 12px
+}

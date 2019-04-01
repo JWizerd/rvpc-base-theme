@@ -1,0 +1,89 @@
+$cream: #f1f1f1;
+$paint_water: #E4E4E4;
+$denim: #0977bc;
+$leaf: #8dc641;
+$cloudy: #e4e4e4;
+$dark: #222;
+$ash: #333;
+$smoke: #666;
+$greyish: #ddd;
+$off_white: #F9F9F9;
+$image_path: "../img/";
+$video_path: "../video/";
+$font_path: "../fonts/";
+$montReg: "montserratRegular", Helvetica;
+$montBold: "montserratbold", Helvetica;
+$lato: "latoregular", Helvetica;
+$latoItalic: "latoitalic", Helvetica;
+$latoBold: "latobold", Helvetica;
+
+@font-face {
+  font-family: 'montserratRegular';
+  src: url('#{$font_path}montserrat-regular-webfont.woff2') format('woff2'),
+       url('#{$font_path}montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url('#{$font_path}montserrat-bold-webfont.woff2') format('woff2'),
+       url('#{$font_path}montserrat-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latobold';
+  src: url('#{$font_path}lato-bold-webfont.woff2') format('woff2'),
+       url('#{$font_path}lato-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latoitalic';
+  src: url('#{$font_path}lato-italic-webfont.woff2') format('woff2'),
+       url('#{$font_path}lato-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('#{$font_path}lato-regular-webfont.woff2') format('woff2'),
+       url('#{$font_path}lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------------------------------
+1.2 MIXINS
+--------------------------------*/
+// @mixin selector($attribute) and then @include selector(attribute ex. 10px)are great for vendor prefixes
+
+// @extend .class reuse classes with this sass feature
+
+// learn more about sass here http://sass-lang.com/guide
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin transition($prop, $duration) {
+  -webkit-transition: $prop, $duration;
+  -moz-transition: $prop, $duration;
+  -ms-transition: $prop, $duration;
+  transition: $prop, $duration;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content};
+  :-moz-placeholder           {@content};
+  ::-moz-placeholder          {@content};
+  :-ms-input-placeholder      {@content};
+}
+

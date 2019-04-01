@@ -1,0 +1,102 @@
+.sidebar-headline {
+  margin-top: 50px;
+}
+
+.sidebar-headline:first-child {
+  margin-top: 0;
+}
+
+.lawyer-name {
+  margin-top: 0;
+}
+
+.sidebar-headline,
+.sidebar h4 /* wordpress override */ {
+  border-bottom: 2px solid $denim;
+  color: $ash;
+  font-family: $montBold;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.attorney-name {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.attorney-name a {
+  color: $denim;
+}
+
+.attorney-name a:hover {
+  color: $leaf;
+}
+
+.widget {
+  margin-bottom: 40px;
+}
+
+.sidebar ul {
+  @extend .list-unstyled;
+}
+
+.sidebar ul li a {
+  color: $denim;
+  font-size: .9em;
+}
+
+.sidebar ul li a:hover {
+  color: $leaf;
+}
+
+.sidebar-lawyer {
+  @extend .img-circle;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  @include transition(ease, .3s);
+  &:hover {
+    @extend .desaturate-zoom;
+  }
+}
+
+.attorney-role {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+.social-link {
+  @extend .block;
+  margin-top: 20px;
+}
+
+.social-link .social-url {
+  color: $ash;
+  font-size: 1.2em;
+}
+
+.social-url {
+  @extend .flexbox;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-url span {
+  padding-left: 5px;
+}
+
+.post-date {
+  display: block;
+  font-size: .6em;
+  margin-bottom: 20px;
+}
+
+.sidebar .menu-item {
+  text-align: left;
+  a {
+    font-size: 18px;
+  }
+}
+

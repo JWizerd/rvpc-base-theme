@@ -1,0 +1,15 @@
+.awards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    .award {
+      @extend .block;
+      max-width: 20%;
+      margin: 20px auto 0 auto;
+    }
+  }
+
+  .awards-section-wrap {
+    background: $paint_water;
+  }

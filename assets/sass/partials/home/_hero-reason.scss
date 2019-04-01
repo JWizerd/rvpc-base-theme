@@ -1,0 +1,22 @@
+.hero-reason-banner {
+    color: white;
+    position: relative;
+
+    h1 {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .reason-buttons-wrapper {
+        .btn {
+            margin-bottom: 10px;
+            width: 100%;
+            font-size: .85em;
+        }
+    }
+}

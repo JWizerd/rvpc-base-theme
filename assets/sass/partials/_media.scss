@@ -1,0 +1,780 @@
+@media (min-width: 992px) {
+  #mobile-form {
+    display: none;
+  }
+
+  .hero-reason-banner.banner-wrapper {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero-reason-banner.banner-wrapper {
+      padding: 200px 0;
+  }
+}
+
+@media all and (min-width: 1440px) {
+    .caption {
+      font-size: 25px;
+      width: 80%;
+    }
+  }
+
+  @media \0 all {
+    .carousel {
+      display: inline-block;
+    }
+  }
+
+
+  @media all and (max-width: 1200px) {
+    .header-wrapper {
+      display: block;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+
+    .header-info {
+      justify-content: center;
+    }
+
+    .phone-number {
+      font-size: 1.8em;
+    }
+  }
+
+  @media all and (min-width: 1650px) {
+    .carousel-caption {
+      left: 20%;
+    }
+  }
+
+  @media all and (max-width: 1400px) {
+    .hero {
+      background-position: center top;
+    }
+    .company-details {
+      font-size: 13px;
+    }
+  }
+
+  @media all and (max-width: 1199px) {
+    .credentials {
+      text-align: right;
+    }
+
+    .hero-reason-banner {
+      background-position: bottom right 75%;
+    }
+
+    h3.credential {
+      padding-right: 0;
+    }
+
+    .credential {
+      font-size: 13px;
+    }
+
+    .credential:first-child {
+      border-right: 0;
+    }
+
+    .certified-info {
+      display: inline-block;
+      padding-left: 2px;
+      padding-top: 0;
+    }
+
+    .blue-box {
+      width: 98px;
+    }
+
+    .menu li {
+      font-size: 12px;
+      padding: 0 12px 0 0;
+    }
+
+    .menu li a {
+      letter-spacing: 0;
+    }
+
+    ul#menu-primary-nav .menu-item {
+      padding: 0 12px;
+    }
+
+    .menu li:first-child {
+      padding-left: 0;
+    }
+
+    .additional-media {
+      height: 250px;
+    }
+
+    .call-to-action-text {
+      text-align: center;
+      padding-bottom: 20px;
+      line-height: 35px;
+      margin-right: 0;
+    }
+
+    .markets-thumbnail-headline {
+      font-size: 30px;
+    }
+
+    .markets-thumbnail {
+      height: 150px;
+    }
+
+    .image-link-box-overlay {
+      font-size: 30px;
+    }
+
+    .image-link-box-icon {
+      padding-top: 22%;
+    }
+
+    .btn-container {
+      margin-bottom: 40px;
+    }
+
+    .team-headshot {
+      height: 163px;
+    }
+
+    .subpage-nav {
+      background-color: transparent;
+    }
+
+    .showpage-title {
+      font-size: 18px;
+    }
+
+    .footer-input,
+    input[type="email"].footer-input,
+    textarea.footer-input,
+    input[type="submit"].footer-form-submit {
+      font-size: 10px;
+      letter-spacing: 0px;
+    }
+
+    .quote-input-wrapper {
+      width: 31%;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .cta-banner-wrapper {
+      width: 200px;
+    }
+
+    .cta-banner-wrapper h3 {
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .case-cta {
+      margin-bottom: 54px;
+    }
+
+    .case-cta img {
+      max-height: 192px;
+      width: 100%;
+    }
+
+    .cta-banner-wrapper {
+      width: 330px;
+    }
+
+    .cta-banner-wrapper h3 {
+      font-size: 18px;
+    }
+  }
+
+  @media all and (max-width: 991px) {
+    .mobile-menu,
+    .primary-nav {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+
+    .mobile-menu {
+      padding: 30px 0;
+      background-color: $dark;
+    }
+
+    #menu-primary-nav {
+      margin-top: 0;
+    }
+
+    .primary-nav {
+      display: none;
+      padding: 0;
+      li.menu-item {
+        margin-bottom: 0;
+      }
+    }
+
+    .main-navigation {
+      display: none;
+    }
+
+    .company-details {
+      font-size: 9px;
+    }
+
+    .logo {
+      margin-bottom: 15px;
+    }
+
+    p:last-child {
+      margin-bottom: 20px;
+    }
+
+    .credential:first-child {
+      border-right: 0;
+      font-size: 20px;
+    }
+
+    .header-info {
+      flex-direction: column;
+    }
+
+    ul#menu-primary-nav {
+      position: relative;
+      z-index: 1;
+    }
+
+    ul#menu-primary-nav .menu-item {
+      display: block;
+      border-right: none;
+      line-height: 15px;
+      padding: 10px 0;
+      font-size: 18px;
+      border-bottom: 1px solid $dark;
+      &:last-child {
+        border-bottom: none;
+      }
+      a {
+        color: white;
+      }
+    }
+
+    .header-info li {
+      border-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .header-info li:last-child {
+      margin-bottom: 0px;
+    }
+
+    .phone small {
+      text-align: center;
+    }
+
+    .fela {
+      display: none;
+    }
+
+    .certified-info {
+      display: inline;
+    }
+
+    .mobile-menu {
+      position: relative;
+      z-index: 7;
+    }
+
+    .desktop-search {
+      display: none;
+    }
+
+    .hero h2 {
+      margin-top: 0;
+    }
+
+    #hero-form {
+      display: none;
+    }
+
+    .home-form-headline {
+      color: white;
+    }
+
+    .mobile-search {
+      display: block;
+      position: absolute;
+      bottom: 15px;
+    }
+
+    .mobile-menu, .hamburger {
+      display: block;
+    }
+
+    .cross {
+      display: none;
+    }
+
+    .primary-nav .menu {
+      flex-direction: column;
+      background-color: #333;
+      margin-top: 28px;
+    }
+
+    .menu li {
+      border-right: none;
+      text-align: center;
+      padding: 0 0 10px 0;
+    }
+
+    .menu li:nth-last-child(2) {
+      padding-right: 0;
+    }
+
+    .menu li a {
+      font-size: 12px;
+    }
+
+    #menu-core-capabilities .menu li a {
+      font-size: 9px;
+    }
+
+    #menu-core-capabilities .menu li {
+      padding: 0;
+    }
+
+    .carousel-caption {
+      text-align: center;
+    }
+
+    .hero-caption {
+      margin-left: 0;
+    }
+
+    .main-headline {
+      font-size: 35px;
+    }
+
+    .footer-widget {
+      border-right: 0;
+    }
+
+    .footer-widget:nth-child(3), .footer-widget:nth-child(4) {
+      padding-top: 30px;
+      height: auto;
+    }
+
+    .footer-widget:nth-child(3) {
+      padding-left: 0;
+    }
+
+    .team-headshot {
+      height: 263px;
+    }
+
+    .team-member-quote:last-child {
+      margin-bottom: 0;
+    }
+
+    .team-member-name {
+      padding-top: 35px;
+    }
+
+    .subpage-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .subpage-nav-wrapper {
+      padding-top: 0;
+    }
+
+    .post-meta div.social-sharing {
+      display: none;
+    }
+
+    .flex-order-1 {
+      order: 1;
+    }
+
+    .flex-order-2 {
+      order: 2;
+    }
+
+    .nav-list li {
+      display: inline-block;
+      padding-right: 5px;
+    }
+
+    .nav-list li:last-child {
+      padding-right: 0;
+    }
+
+    .post.content-wrapper {
+      padding-top: 70px;
+    }
+
+    .footer-links {
+      flex-direction: column;
+    }
+
+    footer .menu {
+      margin-top: 0;
+      li {
+        text-align: left;
+        padding: 0;
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 940px) {
+    .company-details {
+      flex-direction: column;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width : 992px) {
+    .contact {
+      height: 300px;
+    }
+
+    .contact-container {
+      display: none;
+    }
+
+    .contact-2 {
+      display: block;
+    }
+  }
+
+  @media all and (max-width: 780px) {
+    .carousel-caption h2 span {
+      font-size: 40px;
+    }
+
+    .carousel-caption {
+      top: 15%;
+    }
+
+    .caption {
+      width: 95%;
+    }
+
+    .simplefilter li {
+      padding: 8px 20px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .flex-row-to-col {
+      flex-direction: column;
+    }
+
+    .markets-thumbnail {
+      height: 175px;
+    }
+
+    .footer-widget {
+      padding-top: 0;
+    }
+
+    .footer-logo {
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 100%;
+    }
+
+    .footer-owner-msg {
+      display: block;
+    }
+
+    .footer-widget:nth-child(3), .footer-widget:nth-child(4) {
+      padding-top: 50px;
+    }
+
+    #menu-core-capabilities li {
+      text-align: left;
+    }
+
+    .subpage-nav-wrapper {
+      padding-top: 70px;
+      background-color: #efefef;
+    }
+
+    .footer-links {
+      flex-direction: column;
+    }
+
+    .footer-links .footer-copy li {
+      display: block;
+      border-right: none;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .case-cta {
+        margin-bottom: 50px;
+    }
+
+    .cta-banner-wrapper {
+        width: 89%;
+    }
+
+    .counter {
+      font-size: 3em;
+    }
+
+    .btn.btn-hollow span, .btn-hollow#submit span {
+      height: 35.5px;
+    }
+
+    .btn.btn-hollow, .btn-hollow#submit {
+      font-size: 16px;
+    }
+
+    // home
+    .hero-reason-banner .row,
+    .consultation-banner-wrap.flex-center {
+      justify-content: center;
+    }
+    .consultation-banner-wrap.flex-center {
+      h2 {
+        text-align: center;
+      }
+    }
+
+    .testimonial-section-wrap {
+        .client-name {
+          font-size: 1.2em;
+        }
+    }
+  }
+
+  @media all and (max-width: 700px) {
+
+    .logo {
+      width: auto;
+    }
+
+    .logo, .logo a, .phone {
+      float: none;
+      text-align: center;
+    }
+
+    h1, h2, h3, h4 {
+      margin-bottom: 15px;
+      font-family: $montBold;
+    }
+
+    .primary-nav li {
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    .main-navgation {
+      padding-bottom: 0;
+    }
+
+    .for-mobile-nav {
+      padding: 0;
+    }
+  }
+
+  @media all and (max-width: 661px) {
+
+    .page-content {
+      text-align: left;
+    }
+
+    .btn-slider, .caption {
+      font-size: 17px;
+    }
+
+    .call-to-action-text {
+      font-size: 20px;
+    }
+
+    .btn-call-to-action {
+      font-size: 18px;
+    }
+
+    .image-link-box-icon {
+      padding-top: 28%;
+    }
+
+    .markets-thumbnail-headline {
+      font-size: 23px;
+    }
+  }
+
+  @media all and (max-width: 610px) {
+    .search-result div {
+      width: 100%;
+    }
+
+    .search-result div p {
+      padding-top: 10px;
+    }
+
+    .img-search-result {
+      display: none;
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    .footer-widget {
+      width: 100% !important;
+      padding-left: 30px;
+      height: auto;
+    }
+
+    .footer-widget:first-child, .footer-widget:nth-child(3) {
+      padding-left: 30px;
+    }
+
+    .footer-widget:nth-child(2) {
+      padding-top: 30px;
+    }
+
+    .footer-input,
+    input[type="email"].footer-input,
+    textarea.footer-input,
+    input[type="submit"].footer-form-submit {
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+
+    .quote-input-wrapper {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media all and (max-width: 551px) {
+    .carousel-caption h2 span {
+      font-size: 28px;
+    }
+
+    .carousel-caption h2 {
+      line-height: 50%;
+    }
+
+    .image-link-box-icon {
+      padding-top: 26%;
+    }
+
+    .markets-thumbnail {
+      height: 134px;
+    }
+
+    .team-member {
+      width: 100%;
+    }
+
+    .team-headshot {
+      width: 58%;
+    }
+
+    .alignleft, .alignright {
+      margin: 30px 0 20px;
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+
+    .markets-thumbnail {
+      height: 140px;
+    }
+
+    .showpage-title {
+      font-size: 16px;
+    }
+  }
+
+  @media all and (max-width: 530px) {
+    .showpage-snippet-excerpt {
+      font-size: 13px;
+    }
+
+    .pfg-img {
+      height: 150px !important;
+    }
+  }
+
+  @media all and (max-width: 440px) {
+    .hero {
+      // height: 220px;
+    }
+
+    .hero h1 {
+      font-size: 30px;
+      line-height: 33px;
+      margin-bottom: 10px;
+    }
+    .team-headshot {
+      height: 210px;
+    }
+
+    .caption {
+      padding: 6px 6px 20px 0;
+    }
+
+    .carousel-caption h2 span {
+      font-size: 23px;
+    }
+
+    p.caption {
+      line-height: 20px;
+      font-size: 16px;
+    }
+
+    .image-link-box-icon {
+      padding-top: 29%;
+    }
+
+    .showpage-snippet {
+      width: 100%;
+    }
+
+    .markets-thumbnail {
+      height: 120px;
+    }
+
+    .showpage-thumbnail {
+      height: 200px;
+    }
+  }
+
+  @media (max-width: 390px) {
+    .hero-reason-banner .reason-buttons-wrapper .btn {
+      font-size: .65em;
+    }
+  }
+
+  @media all and (max-width: 320px) {
+    .markets-thumbnail-headline {
+      font-size: 18px;
+    }
+
+    .cta-banner-wrapper {
+        width: 86%;
+    }
+
+    .counter {
+      font-size: 2em;
+    }
+  }

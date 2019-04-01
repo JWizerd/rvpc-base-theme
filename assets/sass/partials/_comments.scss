@@ -1,0 +1,155 @@
+#comment {
+    width: 100%;
+  }
+
+  #commentform p {
+    margin-bottom: 0;
+  }
+
+  .comment-body {
+    font-size: 18px;
+  }
+
+  .comment-respond {
+    background-color: #ccc;
+    margin: 15px 0;
+    padding: 15px;
+  }
+
+  .comment-respond textarea {
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;
+    resize: none
+  }
+
+  p.comment-form-comment label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #394753;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  p.comment-form-author {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 47%;
+    margin-right: 15px;
+  }
+
+  p.comment-form-author label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #394753;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  input#author {
+    width: 100%;
+    height: 30px;
+  }
+
+  p.comment-form-email {
+    display: inline-block;
+    width: 49%;
+  }
+
+  p.comment-form-email label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: #394753;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  p.comment-notes {
+    color: #394753;
+    font-size: 11px;
+  }
+
+  .post p.comment-notes-after {
+    width: 82%;
+    float: right;
+    font-size: 11px;
+    text-align: justify;
+    color: #394753;
+    line-height: 13px;
+  }
+
+  .dark-text {
+    color: #394753;
+  }
+
+  .comments-title-container {
+    background-color: #cccccc;
+    margin-bottom: 0;
+    padding: 10px 0 10px 15px;
+  }
+
+  li.comment {
+    background-color: #f9f9f9;
+    padding: 15px 15px 0 15px;
+  }
+
+  ul.children li {
+    padding: 0;
+  }
+
+  ol.comment-list li.comment hr {
+    margin-bottom: 0;
+  }
+
+  .children li article.comment div.comment-entry {
+    border-left: solid 5px #0977bc;
+    margin-left: -15px;
+    padding-top: 15px;
+    padding-left: 14px;
+  }
+
+  .children li article.comment div.comment-entry hr {
+    margin-left: -14px;
+  }
+
+  .comment-entry-head {
+    margin-bottom: 10px;
+  }
+
+  .comment-entry-content {
+    padding-left: 15px;
+    font-style: italic;
+  }
+
+  .comment-reply-link {
+    float: right
+  }
+
+  .comment-entry-head strong span {
+    font-size: 16px;
+  }
+
+  .comment-entry-head time {
+    float: right;
+  }
+
+  span.comment-number {
+    color: #0977bc;
+  }
+
+  input#email {
+    width: 100%;
+    height: 30px;
+  }
+
+  #submit {
+    @extend .btn;
+    @extend .btn-secondary;
+    border-radius: 0;
+    padding: 5px 25px;
+    color: white;
+    font-size: 18px;
+  }

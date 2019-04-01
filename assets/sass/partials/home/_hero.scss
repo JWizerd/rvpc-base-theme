@@ -1,0 +1,33 @@
+.hero {
+    background: url("#{$image_path}bg_railroad-injuries-railroad-accidents-fela.jpg") center top -184px no-repeat;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+  }
+
+  .hero h2 {
+    text-align: center;
+    line-height: 30px;
+    font-family: "montserratRegular", Helvetica;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 19%;
+    padding: 12px;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .hero-content {
+    .footer-company-info {
+        list-style: none;
+        background: rgba(51, 51, 51, .9);
+        padding: 0px 20px 12px 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        li {
+            margin: 8px 10px 0 0;
+        }
+    }
+    height: 100%;
+  }
