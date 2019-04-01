@@ -1,0 +1,44 @@
+// SEARCH FORM
+
+#searchBar .modal-content {
+    background: 0 0;
+    border: none;
+    box-shadow: none
+}
+
+.close-modal {
+    display: block;
+    margin-top: 10px;
+    color: #ddd
+}
+
+input#s {
+  width: 90%;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+button.btn-header-search {
+  height: 50px;
+  width: auto;
+  border: none;
+  position: relative;
+  top: 4px;
+  border-radius: 5px;
+  background: #0073bf;
+  padding: 0 10px;
+
+  .fa {
+    font-size: 27px;
+    margin-left: 0;
+    background: transparent;
+  }
+}
+
+.search-button {
+  .header-social-icon {
+    padding-right: 0;
+  }
+}

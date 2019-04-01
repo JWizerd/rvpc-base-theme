@@ -2,37 +2,6 @@
 
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 
-/*******************
-NAVIGATION: css menus can be great for breaking up your code into modules as well as helping you quickly navigate to a page/sections styles via cmd+f
-
---------------------------------
-1.0 DEFAULT VARIABLES REUSABLE "OBJECTS"
-- 1.1 VARIABLES
-- 1.2 MIXINS
-- 1.3 REUSABLES
-- 1.4 DEFAULT
-- 1.5 FORMS
-
-2.0 HEADER
-
-3.0 HOME
-
-4.0 SIDEBAR, LAWYER SIDEBAR
-
-5.0 FOOTER
-
-6.0 POSTS / BlOG
-- 6.1 COMMENTS
-- 6.2 BLOG
-
-7.0 PAGE, LAWYER, FULLWIDTH
-
-8.0 SUBPAGE TEMPLATE, SEARCH
-
-9.0 MEDIA QUERIES
-
-********************/
-
 @import 'partials/variables';
 @import 'partials/reusables';
 @import 'partials/mixins';
@@ -40,6 +9,7 @@ NAVIGATION: css menus can be great for breaking up your code into modules as wel
 @import 'partials/owl-carousel';
 @import 'partials/forms';
 @import 'partials/header';
+@import 'partials/search-form';
 
 /*
  * HOME
@@ -52,6 +22,7 @@ NAVIGATION: css menus can be great for breaking up your code into modules as wel
 @import 'partials/home/consultation';
 @import 'partials/home/awards';
 @import 'partials/home/posts';
+@import 'partials/long-content';
 
 @import 'partials/sidebar';
 @import 'partials/posts';
